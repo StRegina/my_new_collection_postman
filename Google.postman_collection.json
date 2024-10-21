@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "главная страница",
+			"name": "главная гугла",
 			"request": {
 				"method": "GET",
 				"header": [],
