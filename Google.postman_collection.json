@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "d5058ad8-1cfa-416a-81da-69e899405d26",
+		"name": "Google",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37909002"
+	},
+	"item": [
+		{
+			"name": "главная страница",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google.ru/?hl=ru",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"ru"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "hl",
+							"value": "ru"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "stray kids",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google.com/search?q=cnhtq+rblc&oq=cnhtq+rblc&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQLhgKGLEDGIAEMgkIAhAAGAoYgAQyCQgDEAAYChiABDIJCAQQLhgKGIAEMg8IBRAuGAoYgwEYsQMYgAQyCQgGEAAYChiABDIJCAcQLhgKGIAEMgkICBAuGAoYgATSAQgyMTY0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "cnhtq+rblc"
+						},
+						{
+							"key": "oq",
+							"value": "cnhtq+rblc"
+						},
+						{
+							"key": "gs_lcrp",
+							"value": "EgZjaHJvbWUyBggAEEUYOTIMCAEQLhgKGLEDGIAEMgkIAhAAGAoYgAQyCQgDEAAYChiABDIJCAQQLhgKGIAEMg8IBRAuGAoYgwEYsQMYgAQyCQgGEAAYChiABDIJCAcQLhgKGIAEMgkICBAuGAoYgATSAQgyMTY0ajBqN6gCALACAA"
+						},
+						{
+							"key": "sourceid",
+							"value": "chrome"
+						},
+						{
+							"key": "ie",
+							"value": "UTF-8"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
