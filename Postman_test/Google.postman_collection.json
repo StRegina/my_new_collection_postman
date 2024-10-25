@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "d5058ad8-1cfa-416a-81da-69e899405d26",
+		"_postman_id": "54984467-242e-4b40-9414-f3b7d1190ae0",
 		"name": "Google",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "37909002"
@@ -26,12 +26,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://www.google.ru/?hl=ru",
-					"protocol": "https",
+					"raw": "{{urllink}}/?hl=ru",
 					"host": [
-						"www",
-						"google",
-						"ru"
+						"{{urllink}}"
 					],
 					"path": [
 						""
@@ -66,12 +63,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://www.google.com/search?q=cnhtq+rblc&oq=cnhtq+rblc&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQLhgKGLEDGIAEMgkIAhAAGAoYgAQyCQgDEAAYChiABDIJCAQQLhgKGIAEMg8IBRAuGAoYgwEYsQMYgAQyCQgGEAAYChiABDIJCAcQLhgKGIAEMgkICBAuGAoYgATSAQgyMTY0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
-					"protocol": "https",
+					"raw": "{{urllink}}/search?q=cnhtq+rblc&oq=cnhtq+rblc&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQLhgKGLEDGIAEMgkIAhAAGAoYgAQyCQgDEAAYChiABDIJCAQQLhgKGIAEMg8IBRAuGAoYgwEYsQMYgAQyCQgGEAAYChiABDIJCAcQLhgKGIAEMgkICBAuGAoYgATSAQgyMTY0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
 					"host": [
-						"www",
-						"google",
-						"com"
+						"{{urllink}}"
 					],
 					"path": [
 						"search"
@@ -122,12 +116,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://www.google.com/search?q=bts&sca_esv=a8ad2f812924383e&sxsrf=ADLYWIKiUvaJdXTcpHIG-iYfr09wbegggw%3A1729831142362&ei=5iAbZ-LpFaSoi-gP0r_xiQ4&ved=0ahUKEwji9IuW26iJAxUk1AIHHdJfPOEQ4dUDCA8&uact=5&oq=bts&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2J0czIKECMYgAQYJxiKBTINEC4YgAQYsQMYQxiKBTINEAAYgAQYsQMYQxiKBTIKEC4YgAQYQxiKBTIKEC4YgAQYQxiKBTIIEAAYgAQYsQMyChAuGIAEGEMYigUyBRAAGIAEMgoQABiABBhDGIoFMgUQABiABDIcEC4YgAQYsQMYQxiKBRiXBRjcBBjeBBjgBNgBAUjnDVDvB1jGCnADeAGQAQCYAYYBoAHyAqoBAzAuM7gBA8gBAPgBAZgCBqACkwPCAgcQIxiwAxgnwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QLhiABBjHARiOBRivAcICCBAuGIAEGLEDwgIFEC4YgATCAhEQLhiABBixAxjRAxiDARjHAcICEBAAGIAEGLEDGEMYgwEYigWYAwCIBgGQBgq6BgYIARABGBSSBwMzLjOgB6Yo&sclient=gws-wiz-serp",
-					"protocol": "https",
+					"raw": "{{urllink}}/search?q=bts&sca_esv=a8ad2f812924383e&sxsrf=ADLYWIKiUvaJdXTcpHIG-iYfr09wbegggw%3A1729831142362&ei=5iAbZ-LpFaSoi-gP0r_xiQ4&ved=0ahUKEwji9IuW26iJAxUk1AIHHdJfPOEQ4dUDCA8&uact=5&oq=bts&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2J0czIKECMYgAQYJxiKBTINEC4YgAQYsQMYQxiKBTINEAAYgAQYsQMYQxiKBTIKEC4YgAQYQxiKBTIKEC4YgAQYQxiKBTIIEAAYgAQYsQMyChAuGIAEGEMYigUyBRAAGIAEMgoQABiABBhDGIoFMgUQABiABDIcEC4YgAQYsQMYQxiKBRiXBRjcBBjeBBjgBNgBAUjnDVDvB1jGCnADeAGQAQCYAYYBoAHyAqoBAzAuM7gBA8gBAPgBAZgCBqACkwPCAgcQIxiwAxgnwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QLhiABBjHARiOBRivAcICCBAuGIAEGLEDwgIFEC4YgATCAhEQLhiABBixAxjRAxiDARjHAcICEBAAGIAEGLEDGEMYgwEYigWYAwCIBgGQBgq6BgYIARABGBSSBwMzLjOgB6Yo&sclient=gws-wiz-serp",
 					"host": [
-						"www",
-						"google",
-						"com"
+						"{{urllink}}"
 					],
 					"path": [
 						"search"
@@ -194,12 +185,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://www.google.com/search?q=%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0&sca_esv=a8ad2f812924383e&sxsrf=ADLYWIKTH6ZhbPNRd0Thh9Mkcl_Bx_racA%3A1729831376364&ei=0CEbZ7f3FcOKi-gPiffCqAI&ved=0ahUKEwi3n9aF3KiJAxVDxQIHHYm7ECUQ4dUDCA8&uact=5&oq=%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0&gs_lp=Egxnd3Mtd2l6LXNlcnAiDNC_0L7Qs9C-0LTQsDISECMYgAQYJxiKBRidAhhGGIACMgoQIxiABBgnGIoFMg4QABiABBixAxiSAxiDATIIEAAYgAQYkgMyDRAAGIAEGLEDGEMYigUyEBAAGIAEGLEDGEMYgwEYigUyBRAAGIAEMgsQABiABBixAxiDATIIEAAYgAQYsQMyCBAAGIAEGLEDMhwQABiABBiKBRidAhhGGIACGJcFGIwFGN0E2AEBSPQLUKIFWN8KcAN4AZABAZgBjAKgAegGqgEFMC41LjG4AQPIAQD4AQGYAgigAo0FwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICExAuGIAEGLADGEMYyAMYigXYAQHCAg0QIxiABBgnGIoFGJ0CwgIOEAAYgAQYsQMYgwEYigXCAgoQLhiABBhDGIoFwgIREC4YgAQYsQMY0QMYgwEYxwGYAwCIBgGQBhO6BgYIARABGAmSBwMzLjWgB9Rp&sclient=gws-wiz-serp",
-					"protocol": "https",
+					"raw": "{{urllink}}/search?q=%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0&sca_esv=a8ad2f812924383e&sxsrf=ADLYWIKTH6ZhbPNRd0Thh9Mkcl_Bx_racA%3A1729831376364&ei=0CEbZ7f3FcOKi-gPiffCqAI&ved=0ahUKEwi3n9aF3KiJAxVDxQIHHYm7ECUQ4dUDCA8&uact=5&oq=%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0&gs_lp=Egxnd3Mtd2l6LXNlcnAiDNC_0L7Qs9C-0LTQsDISECMYgAQYJxiKBRidAhhGGIACMgoQIxiABBgnGIoFMg4QABiABBixAxiSAxiDATIIEAAYgAQYkgMyDRAAGIAEGLEDGEMYigUyEBAAGIAEGLEDGEMYgwEYigUyBRAAGIAEMgsQABiABBixAxiDATIIEAAYgAQYsQMyCBAAGIAEGLEDMhwQABiABBiKBRidAhhGGIACGJcFGIwFGN0E2AEBSPQLUKIFWN8KcAN4AZABAZgBjAKgAegGqgEFMC41LjG4AQPIAQD4AQGYAgigAo0FwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICExAuGIAEGLADGEMYyAMYigXYAQHCAg0QIxiABBgnGIoFGJ0CwgIOEAAYgAQYsQMYgwEYigXCAgoQLhiABBhDGIoFwgIREC4YgAQYsQMY0QMYgwEYxwGYAwCIBgGQBhO6BgYIARABGAmSBwMzLjWgB9Rp&sclient=gws-wiz-se",
 					"host": [
-						"www",
-						"google",
-						"com"
+						"{{urllink}}"
 					],
 					"path": [
 						"search"
@@ -239,85 +227,134 @@
 						},
 						{
 							"key": "sclient",
+							"value": "gws-wiz-se"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "крем",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urllink}}/search?q=%D0%BA%D1%80%D0%B5%D0%BC&sca_esv=a8ad2f812924383e&sxsrf=ADLYWIKJBzT5_yEZmEwWhYVKUclgu__0Bg%3A1729831919309&ei=7yMbZ9TAEor-7_UPtN3R4AQ&ved=0ahUKEwiU9MiI3qiJAxUK_7sIHbRuFEwQ4dUDCA8&uact=5&oq=%D0%BA%D1%80%D0%B5%D0%BC&gs_lp=Egxnd3Mtd2l6LXNlcnAiCNC60YDQtdC8MhAQLhiABBixAxhDGIMBGIoFMgoQABiABBhDGIoFMhAQABiABBixAxhDGIMBGIoFMggQLhiABBixAzINEC4YgAQYsQMYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTILEC4YgAQYxwEYrwEyDRAAGIAEGLEDGEMYigUyDRAAGIAEGLEDGEMYigUyHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQFI-QtQtwVYjwpwAXgBkAEAmAGKAaABlASqAQMwLjS4AQPIAQD4AQGYAgWgArkEqAIUwgIHECMYJxjqAsICExAAGIAEGEMYtAIYigUY6gLYAQHCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAgoQIxiABBgnGIoFwgIEECMYJ8ICBRAAGIAEwgIFEC4YgATCAggQABiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjRAxjHAcICDhAuGIAEGMcBGI4FGK8BwgIKEC4YgAQYQxiKBcICGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQGYAwy6BgYIARABGAGSBwMxLjSgB8FU&sclient=gws-wiz-serp",
+					"host": [
+						"{{urllink}}"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "%D0%BA%D1%80%D0%B5%D0%BC"
+						},
+						{
+							"key": "sca_esv",
+							"value": "a8ad2f812924383e"
+						},
+						{
+							"key": "sxsrf",
+							"value": "ADLYWIKJBzT5_yEZmEwWhYVKUclgu__0Bg%3A1729831919309"
+						},
+						{
+							"key": "ei",
+							"value": "7yMbZ9TAEor-7_UPtN3R4AQ"
+						},
+						{
+							"key": "ved",
+							"value": "0ahUKEwiU9MiI3qiJAxUK_7sIHbRuFEwQ4dUDCA8"
+						},
+						{
+							"key": "uact",
+							"value": "5"
+						},
+						{
+							"key": "oq",
+							"value": "%D0%BA%D1%80%D0%B5%D0%BC"
+						},
+						{
+							"key": "gs_lp",
+							"value": "Egxnd3Mtd2l6LXNlcnAiCNC60YDQtdC8MhAQLhiABBixAxhDGIMBGIoFMgoQABiABBhDGIoFMhAQABiABBixAxhDGIMBGIoFMggQLhiABBixAzINEC4YgAQYsQMYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTILEC4YgAQYxwEYrwEyDRAAGIAEGLEDGEMYigUyDRAAGIAEGLEDGEMYigUyHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQFI-QtQtwVYjwpwAXgBkAEAmAGKAaABlASqAQMwLjS4AQPIAQD4AQGYAgWgArkEqAIUwgIHECMYJxjqAsICExAAGIAEGEMYtAIYigUY6gLYAQHCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAgoQIxiABBgnGIoFwgIEECMYJ8ICBRAAGIAEwgIFEC4YgATCAggQABiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjRAxjHAcICDhAuGIAEGMcBGI4FGK8BwgIKEC4YgAQYQxiKBcICGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQGYAwy6BgYIARABGAGSBwMxLjSgB8FU"
+						},
+						{
+							"key": "sclient",
 							"value": "gws-wiz-serp"
 						}
 					]
 				}
 			},
 			"response": []
-        },
-        {
-            "name": "крем",
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "exec": [
-                            "pm.test(\"Status code is 200\", function () {",
-                            "    pm.response.to.have.status(200);",
-                            "});"
-                        ],
-                        "type": "text/javascript",
-                        "packages": {}
-                    }
-                }
-            ],
-            "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                    "raw": "https://www.google.com/search?q=%D0%BA%D1%80%D0%B5%D0%BC&sca_esv=a8ad2f812924383e&sxsrf=ADLYWIKJBzT5_yEZmEwWhYVKUclgu__0Bg%3A1729831919309&ei=7yMbZ9TAEor-7_UPtN3R4AQ&ved=0ahUKEwiU9MiI3qiJAxUK_7sIHbRuFEwQ4dUDCA8&uact=5&oq=%D0%BA%D1%80%D0%B5%D0%BC&gs_lp=Egxnd3Mtd2l6LXNlcnAiCNC60YDQtdC8MhAQLhiABBixAxhDGIMBGIoFMgoQABiABBhDGIoFMhAQABiABBixAxhDGIMBGIoFMggQLhiABBixAzINEC4YgAQYsQMYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTILEC4YgAQYxwEYrwEyDRAAGIAEGLEDGEMYigUyDRAAGIAEGLEDGEMYigUyHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQFI-QtQtwVYjwpwAXgBkAEAmAGKAaABlASqAQMwLjS4AQPIAQD4AQGYAgWgArkEqAIUwgIHECMYJxjqAsICExAAGIAEGEMYtAIYigUY6gLYAQHCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAgoQIxiABBgnGIoFwgIEECMYJ8ICBRAAGIAEwgIFEC4YgATCAggQABiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjRAxjHAcICDhAuGIAEGMcBGI4FGK8BwgIKEC4YgAQYQxiKBcICGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQGYAwy6BgYIARABGAGSBwMxLjSgB8FU&sclient=gws-wiz-serp",
-                    "protocol": "https",
-                    "host": [
-                        "www",
-                        "google",
-                        "com"
-                    ],
-                    "path": [
-                        "search"
-                    ],
-                    "query": [
-                        {
-                            "key": "q",
-                            "value": "%D0%BA%D1%80%D0%B5%D0%BC"
-                        },
-                        {
-                            "key": "sca_esv",
-                            "value": "a8ad2f812924383e"
-                        },
-                        {
-                            "key": "sxsrf",
-                            "value": "ADLYWIKJBzT5_yEZmEwWhYVKUclgu__0Bg%3A1729831919309"
-                        },
-                        {
-                            "key": "ei",
-                            "value": "7yMbZ9TAEor-7_UPtN3R4AQ"
-                        },
-                        {
-                            "key": "ved",
-                            "value": "0ahUKEwiU9MiI3qiJAxUK_7sIHbRuFEwQ4dUDCA8"
-                        },
-                        {
-                            "key": "uact",
-                            "value": "5"
-                        },
-                        {
-                            "key": "oq",
-                            "value": "%D0%BA%D1%80%D0%B5%D0%BC"
-                        },
-                        {
-                            "key": "gs_lp",
-                            "value": "Egxnd3Mtd2l6LXNlcnAiCNC60YDQtdC8MhAQLhiABBixAxhDGIMBGIoFMgoQABiABBhDGIoFMhAQABiABBixAxhDGIMBGIoFMggQLhiABBixAzINEC4YgAQYsQMYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTILEC4YgAQYxwEYrwEyDRAAGIAEGLEDGEMYigUyDRAAGIAEGLEDGEMYigUyHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQFI-QtQtwVYjwpwAXgBkAEAmAGKAaABlASqAQMwLjS4AQPIAQD4AQGYAgWgArkEqAIUwgIHECMYJxjqAsICExAAGIAEGEMYtAIYigUY6gLYAQHCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAgoQIxiABBgnGIoFwgIEECMYJ8ICBRAAGIAEwgIFEC4YgATCAggQABiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjRAxjHAcICDhAuGIAEGMcBGI4FGK8BwgIKEC4YgAQYQxiKBcICGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQGYAwy6BgYIARABGAGSBwMxLjSgB8FU"
-                        },
-                        {
-                            "key": "sclient",
-                            "value": "gws-wiz-serp"
-                        }
-                    ]
-                }
-            },
-            "response": []
-        }
-
+		},
+		{
+			"name": "очки",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urllink}}/search?q=%D0%BE%D1%87%D0%BA%D0%B8&oq=%D0%BE%D1%87%D0%BA%D0%B8&gs_lcrp=EgZjaHJvbWUyEggAEEUYORiDARixAxjJAxiABDIHCAEQABiABDIKCAIQABiSAxiABDINCAMQABiSAxiABBiKBTIKCAQQABixAxiABDIKCAUQABixAxiABDIKCAYQABixAxiABDIKCAcQABixAxiABDIKCAgQABixAxiABDIHCAkQABiPAtIBBzcyMGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+					"host": [
+						"{{urllink}}"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "%D0%BE%D1%87%D0%BA%D0%B8"
+						},
+						{
+							"key": "oq",
+							"value": "%D0%BE%D1%87%D0%BA%D0%B8"
+						},
+						{
+							"key": "gs_lcrp",
+							"value": "EgZjaHJvbWUyEggAEEUYORiDARixAxjJAxiABDIHCAEQABiABDIKCAIQABiSAxiABDINCAMQABiSAxiABBiKBTIKCAQQABixAxiABDIKCAUQABixAxiABDIKCAYQABixAxiABDIKCAcQABixAxiABDIKCAgQABixAxiABDIHCAkQABiPAtIBBzcyMGowajeoAgCwAgA"
+						},
+						{
+							"key": "sourceid",
+							"value": "chrome"
+						},
+						{
+							"key": "ie",
+							"value": "UTF-8"
+						}
+					]
+				}
+			},
+			"response": []
+		}
 	]
 }
