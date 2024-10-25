@@ -22,4 +22,4 @@ jobs:
 
     - name: Run Postman tests
       run: |
-        newman run Google.postman_collection.json.json
+        newman run Google.postman_collection.json.json -e ProdUrl.postman_environment.json
