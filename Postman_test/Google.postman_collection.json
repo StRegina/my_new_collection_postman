@@ -173,6 +173,78 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "крем",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google.com/search?q=%D0%BA%D1%80%D0%B5%D0%BC&sca_esv=a8ad2f812924383e&sxsrf=ADLYWIKJBzT5_yEZmEwWhYVKUclgu__0Bg%3A1729831919309&ei=7yMbZ9TAEor-7_UPtN3R4AQ&ved=0ahUKEwiU9MiI3qiJAxUK_7sIHbRuFEwQ4dUDCA8&uact=5&oq=%D0%BA%D1%80%D0%B5%D0%BC&gs_lp=Egxnd3Mtd2l6LXNlcnAiCNC60YDQtdC8MhAQLhiABBixAxhDGIMBGIoFMgoQABiABBhDGIoFMhAQABiABBixAxhDGIMBGIoFMggQLhiABBixAzINEC4YgAQYsQMYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTILEC4YgAQYxwEYrwEyDRAAGIAEGLEDGEMYigUyDRAAGIAEGLEDGEMYigUyHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQFI-QtQtwVYjwpwAXgBkAEAmAGKAaABlASqAQMwLjS4AQPIAQD4AQGYAgWgArkEqAIUwgIHECMYJxjqAsICExAAGIAEGEMYtAIYigUY6gLYAQHCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAgoQIxiABBgnGIoFwgIEECMYJ8ICBRAAGIAEwgIFEC4YgATCAggQABiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjRAxjHAcICDhAuGIAEGMcBGI4FGK8BwgIKEC4YgAQYQxiKBcICGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQGYAwy6BgYIARABGAGSBwMxLjSgB8FU&sclient=gws-wiz-serp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "%D0%BA%D1%80%D0%B5%D0%BC"
+						},
+						{
+							"key": "sca_esv",
+							"value": "a8ad2f812924383e"
+						},
+						{
+							"key": "sxsrf",
+							"value": "ADLYWIKJBzT5_yEZmEwWhYVKUclgu__0Bg%3A1729831919309"
+						},
+						{
+							"key": "ei",
+							"value": "7yMbZ9TAEor-7_UPtN3R4AQ"
+						},
+						{
+							"key": "ved",
+							"value": "0ahUKEwiU9MiI3qiJAxUK_7sIHbRuFEwQ4dUDCA8"
+						},
+						{
+							"key": "uact",
+							"value": "5"
+						},
+						{
+							"key": "oq",
+							"value": "%D0%BA%D1%80%D0%B5%D0%BC"
+						},
+						{
+							"key": "gs_lp",
+							"value": "Egxnd3Mtd2l6LXNlcnAiCNC60YDQtdC8MhAQLhiABBixAxhDGIMBGIoFMgoQABiABBhDGIoFMhAQABiABBixAxhDGIMBGIoFMggQLhiABBixAzINEC4YgAQYsQMYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTILEC4YgAQYxwEYrwEyDRAAGIAEGLEDGEMYigUyDRAAGIAEGLEDGEMYigUyHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQFI-QtQtwVYjwpwAXgBkAEAmAGKAaABlASqAQMwLjS4AQPIAQD4AQGYAgWgArkEqAIUwgIHECMYJxjqAsICExAAGIAEGEMYtAIYigUY6gLYAQHCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAgoQIxiABBgnGIoFwgIEECMYJ8ICBRAAGIAEwgIFEC4YgATCAggQABiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjRAxjHAcICDhAuGIAEGMcBGI4FGK8BwgIKEC4YgAQYQxiKBcICGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQGYAwy6BgYIARABGAGSBwMxLjSgB8FU"
+						},
+						{
+							"key": "sclient",
+							"value": "gws-wiz-serp"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
